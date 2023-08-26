@@ -31,6 +31,18 @@ This builds atop the search query to develop a more rebust query using Cohere's 
 # Output
 chat.py exports the text description and path to images for the top 2 hits based on the similarity score
 
+## "people hanging out at a bar"
+![image](./images/20230817-REP_4081.jpg)
+![image](./images/20230817-REP_4159.jpg)
+
+## "playing pool"
+![image](./images/20230810-R6_13738.jpg)
+![image](./images/20230810-R6_13722.jpg)
+
+## "phone app demo at social mixer"
+![image](./images/20230817-REP_4116.jpg)
+![image](./images/20230810-R6_13361.jpg)
+
 ## Potential Next Steps
 - Introduce an image store alongside the metadata/embeddings
 - Add a NextJS web UI to streamline usage for image upload & search
@@ -39,4 +51,4 @@ chat.py exports the text description and path to images for the top 2 hits based
 - Summarize entire albums for searchability & providing accessible captions
 
 # Photos
-All photos were taken by Roshan Ravi.
+All photos were taken by Roshan Ravi under the scope of Rare Event Productions.
