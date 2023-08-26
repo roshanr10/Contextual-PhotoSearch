@@ -29,7 +29,7 @@ def image_to_metadata(image):
     
     return image
 
-cohere_embedder = CohereEmbeddings(cohere_api_key="<COHERE API KEY>", model="embed-english-light-v2.0") # TODO REMOVE
+cohere_embedder = CohereEmbeddings(cohere_api_key="<COHERE API KEY>", model="embed-english-light-v2.0")
 def metadata_to_embeddings(images):
     return cohere_embedder.embed_documents([image["text"] for image in images], )
 
