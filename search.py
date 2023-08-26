@@ -1,7 +1,7 @@
 import pymongo
 from langchain.embeddings import CohereEmbeddings
 
-cohere_embedder = CohereEmbeddings(cohere_api_key="<COHERE API KEY>", model="embed-english-light-v2.0") # TODO REMOVE
+cohere_embedder = CohereEmbeddings(cohere_api_key="<COHERE API KEY>", model="embed-english-light-v2.0")
 
 client = pymongo.MongoClient(
     '<CONNECTION STRING>',
